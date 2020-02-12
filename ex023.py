@@ -1,0 +1,6 @@
+num = str(input('Insira um número de 0 a 9999: '))
+aux = str(10000 + int(num))
+print('unidade: ', aux[4])
+print('dezena: ', aux[3])
+print('centena: ', aux[2])
+print('milhar: ', aux[1])

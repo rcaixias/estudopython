@@ -1,0 +1,6 @@
+nome = str(input('Nome completo: '))
+print(nome.upper())
+print(nome.lower())
+print('O nome possui ', len(nome.replace(' ', '')), 'letras.')
+aux = nome.split()
+print('O primeiro nome possui ', len(aux[0]), ' letras.')
